@@ -706,7 +706,7 @@ jobs:
           files: |
             ${{ env.release_name }}.zip
           draft: false
-          body: Hello World
+          body: This release has WSA ${{ env.WSA_VER }}.
           prerelease: false
 
       - name: Delete workflow runs
