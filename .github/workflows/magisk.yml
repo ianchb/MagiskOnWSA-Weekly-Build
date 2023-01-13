@@ -21,7 +21,7 @@ on:
       magisk_apk:
         description: "Magisk version"
         required: true
-        default: "stable"
+        default: "debug"
         type: choice
         options:
         - stable
