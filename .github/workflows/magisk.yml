@@ -17,14 +17,14 @@ on:
         default: "insider fast"
         type: choice
         options:
-        - retail
+        - insider fast
       magisk_apk:
         description: "Magisk version"
         required: true
         default: "debug"
         type: choice
         options:
-        - stable
+        - debug
       gapps_variant:
         description: "Variants of gapps"
         required: true
