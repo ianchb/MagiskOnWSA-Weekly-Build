@@ -701,7 +701,7 @@ jobs:
       - name: Upload To Release
         uses: softprops/action-gh-release@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           tag_name: WSA-${{ env.WSA_VER }}-${{ env.WSA_REL }}
           files: |
             ${{ env.release_name }}.zip
